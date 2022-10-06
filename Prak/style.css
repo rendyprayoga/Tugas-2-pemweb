@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+body{   
+   height: 790px;
+   background-color: rgb(16, 224, 103);
+   background-size: 400% 400%;
+   animation: gradient 10s ease infinite;
+   background-image: linear-gradient(-50deg,#d4650b,#bbd461,rgb(96, 211, 240));
+}
+
+.table-box{
+    position: absolute;
+    left: 40%;
+    top: 40%;
+    background-color: rgb(230, 182, 24);
+}
+
+button{
+    width: 100%;
+    padding: 5px 0;
+    border: none;
+    background-color:#5c5c5c;
+    font-size: 18px;
+    color: #fafafa;
+}
